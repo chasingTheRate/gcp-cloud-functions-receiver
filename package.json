@@ -1,0 +1,27 @@
+{
+  "name": "gcp-cloud-functions-receiver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "devServer": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chasingTheRate/gcp-cloud-functions-receiver.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chasingTheRate/gcp-cloud-functions-receiver/issues"
+  },
+  "homepage": "https://github.com/chasingTheRate/gcp-cloud-functions-receiver#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
